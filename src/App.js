@@ -2,10 +2,14 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Test1 from "./Test1";
 import Example from "./Example"
 import Design from "./Design"
+import  Login from "./Login"
+import Fetch from "./Fetch"
 function App() {
   return (
     <div className="App">
-      <Design/>
+      {/* <Login/> */}
+      <Fetch/>
+      {/* <Design/> */}
       {/* <Example/> */}
       {/* <BrowserRouter>
       <Routes>
