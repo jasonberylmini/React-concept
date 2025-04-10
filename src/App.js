@@ -4,11 +4,13 @@ import Example from "./Example"
 import Design from "./Design"
 import  Login from "./Login"
 import Fetch from "./Fetch"
+import Calculator from './Calculator'
 function App() {
   return (
     <div className="App">
+      <Calculator />
       {/* <Login/> */}
-      <Fetch/>
+      {/* <Fetch/> */}
       {/* <Design/> */}
       {/* <Example/> */}
       {/* <BrowserRouter>
