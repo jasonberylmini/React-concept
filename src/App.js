@@ -7,7 +7,7 @@ import Fetch from "./Fetch"
 function App() {
   return (
     <div className="App">
-      {/* <Login/> */}
+      <Login/>
       <Fetch/>
       {/* <Design/> */}
       {/* <Example/> */}
